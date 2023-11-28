@@ -86,7 +86,7 @@ class ServiceStrategyContext {
     }
 
     public function executeGetServiceDetails() {
-        return $this->serviceType->getBookingDetails();
+        return $this->serviceType->executeGetServiceDetails();
     }
 
     public function executeGetBookingDetails() {
